@@ -5,11 +5,10 @@ html {
 }
 body {
   font-family: 'Space Mono', monospace;
-  line-height: 1.5;
+  line-height: 1.7;
   max-width: 45rem;
   width: 90%;
   margin: 0 auto;
-  color: #444;
 }
 a {
   color: inherit;
@@ -35,8 +34,6 @@ main h4 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.0125rem;
-  color: #444;
-  padding-bottom: 40px;
 }
 blockquote {
   border-left: 1px solid #999;
@@ -54,6 +51,7 @@ header small {
   font-size: 50%;
   font-weight: normal;
   display: block;
+  padding-top: 40px;
 }
 footer {
   margin: 120px 0 10px;
