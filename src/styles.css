@@ -65,3 +65,13 @@ ul {
 li {
   padding-bottom: 20px;
 }
+
+/* night mode css */
+
+.night-mode body {
+    background-color: #272727;
+    color: #ffffff;
+}
+.night-mode a {
+    color: #e5e5e5;
+}
