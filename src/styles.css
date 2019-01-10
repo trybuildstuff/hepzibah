@@ -83,9 +83,7 @@ body.night
 	height: 16px;
 	width: 8px;
 	cursor: pointer;
-	border-radius: 0 90px 90px 0;
-    -moz-border-radius: 0 90px 90px 0;
-    -webkit-border-radius:  0 90px 90px 0;
+	border: 2px solid black;
 	transition: 0.5s;
 
 }
@@ -102,9 +100,7 @@ body.night
 	width:8px;
 	height:16px;
 	background:#00151f;
-    border-radius: 0 90px 90px 0;
-    -moz-border-radius: 0 90px 90px 0;
-    -webkit-border-radius:  0 90px 90px 0;
+    border: 2px solid black;
 	transition: 0.5s;
 }
 .toggle.active:before
