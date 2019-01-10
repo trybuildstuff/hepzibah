@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
   <script type="text/javascript" src="/night.js"></script>
+  <script>
+	  ;(function (window, document, undefined) {
+	'use strict';
+	if (!('localStorage' in window)) return;
+})(window, document);
+	  ;(function (window, document, undefined) {
+	'use strict';
+	if (!('localStorage' in window)) return;
+	var nightMode = localStorage.getItem('nightMode');
+	if (!nightMode) return;
+	document.documentElement.className += ' night-mode';
+})(window, document);
+	</script>
   <link rel="stylesheet" href="/styles.css" />
   <link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
