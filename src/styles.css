@@ -80,8 +80,8 @@ body.night
 	top:40px;
 	right:50px;
 	background: #fff;
-	height: 20px;
-	width: 45px;
+	height: 30px;
+	width: 30px;
 	cursor: pointer;
 	border-ra  border-bottom-right-radius: $size * 2;
         border-top-right-radius: $size * 2;dius: 20px;
@@ -115,6 +115,7 @@ body.night
 body.night .content h1, 
 body.night .content h2, 
 body.night .content li, 
+body.night .content footer,
 body.night .content p
 {
 	color:#fff;
