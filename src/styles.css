@@ -112,6 +112,8 @@ body.night
 
 }
 body.night .content h1, 
+body.night .content h2, 
+body.night .content li, 
 body.night .content p
 {
 	color:#fff;
