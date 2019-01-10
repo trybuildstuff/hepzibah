@@ -101,8 +101,9 @@ body.night
 	width:16px;
 	height:16px;
 	background:#00151f;
-        border-bottom-right-radius: $size * 2;
-        border-top-right-radius: $size * 2;
+    border-radius: 0 90px 90px 0;
+    -moz-border-radius: 0 90px 90px 0;
+    -webkit-border-radius:  0 90px 90px 0;
 	transition: 0.5s;
 }
 .toggle.active:before
