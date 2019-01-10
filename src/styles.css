@@ -83,8 +83,9 @@ body.night
 	height: 30px;
 	width: 30px;
 	cursor: pointer;
-	border-ra  border-bottom-right-radius: $size * 2;
-        border-top-right-radius: $size * 2;dius: 20px;
+	border-radius: 0 90px 90px 0;
+    -moz-border-radius: 0 90px 90px 0;
+    -webkit-border-radius:  0 90px 90px 0;
 	transition: 0.5s;
 
 }
