@@ -48,6 +48,7 @@ article {
 header {
   margin-bottom: calc(1.618rem * 3);
   padding: calc(1.618rem / 2) 0;
+	border-bottom: none;
 }
 header small {
   font-size: 50%;
