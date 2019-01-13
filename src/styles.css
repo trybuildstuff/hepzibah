@@ -9,6 +9,7 @@ body {
   max-width: 45rem;
   width: 90%;
   margin: 0 auto;
+  background-color: #f9f9f9;
 }
 a {
   color: inherit;
